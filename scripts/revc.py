@@ -1,5 +1,7 @@
 print("Directions:")
-print("Given a DNA string s of length at most 1000 bp, return the reverse complement sc of s.\n\n")
+print("\tGiven a DNA string s of length at most 1000 bp")
+print("\tReturn the reverse complement sc of s.")
+print("Previous problem(s): RNA\n")
 
 f = open("../files/rosalind_revc.txt")
 dna = f.readline().strip()

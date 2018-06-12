@@ -1,5 +1,7 @@
 print("Directions:")
-print("Given positive integers n <= 40 and k <= 5, return the total number of rabbit pairs that will be present after n months, if we begin with 1 pair and in each generation, every pair of reproduction-age rabbits produces a litter of k rabbit pairs (instead of only 1 pair).\n\n")
+print("\tGiven positive integers n <= 40 and k <= 5")
+print("\tReturn the total number of rabbit pairs that will be present after n months, if we begin with 1 pair and in each generation, every pair of reproduction-age rabbits produces a litter of k rabbit pairs (instead of only 1 pair).")
+print("Previous problem(s): REVC\n")
 f = open("../files/rosalind_fib.txt")
 n, k = map(int, f.readline().strip().split())
 print("n = %i\nk = %i" % (n, k))

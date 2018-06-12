@@ -1,5 +1,7 @@
 print("Directions:")
-print("Given three positive integers k, m, and n, representing a population containing k + m + n organisms: k individiuals are homozygous dominant for a factor, m are heterozygous, and n are homozygous recessive, return the probability that two randomly selected mating organisms will produce an individual possesing a dominant allele (and thus displaying the dominant phenotype). Assume that any two organisms can mate.\n\n")
+print("\tGiven three positive integers k, m, and n, representing a population containing k + m + n organisms: k individiuals are homozygous dominant for a factor, m are heterozygous, and n are homozygous recessive")
+print("\tReturn the probability that two randomly selected mating organisms will produce an individual possesing a dominant allele (and thus displaying the dominant phenotype). Assume that any two organisms can mate.")
+print("Previous problem(s): REVC\n")
 
 f = open("../files/rosalind_iprb.txt")
 k,m,n = map(float, f.readline().strip().split())
