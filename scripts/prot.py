@@ -14,7 +14,7 @@ f = open("../files/rosalind_prot.txt")
 RNA = f.readline().strip()
 Protein = ""
 for i in range(0, len(RNA), 3):
-	if (RNA_to_Protein[RNA[i:i+3]] == "STOP"):
+	if (RNA_to_Protein[RNA[i:i+3]] == "-"):
 		break
 	Protein = Protein + RNA_to_Protein[RNA[i:i+3]]
 print(Protein)

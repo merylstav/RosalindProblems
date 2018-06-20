@@ -32,8 +32,8 @@ GCA	A	Ala
 GCG	A	Ala
 UAU	Y	Tyr
 UAC	Y	Tyr
-UAA	STOP
-UAG	STOP
+UAA	-
+UAG	-
 CAU	H	His
 CAC	H	His
 CAA	Q	Gin
@@ -48,7 +48,7 @@ GAA	E	Glu
 GAG	E	Glu
 UGU	C	Cys
 UGC	C	Cys
-UGA	STOP
+UGA	-
 UGG	W	Trp
 CGU	R	Arg
 CGC	R	Arg
